@@ -1,0 +1,141 @@
+/*GLOBAL*/
+html{
+    background-color: #fff;
+    margin-top: 20px;
+}
+h1,h2,h3,h4{
+    font-family: 'lato', 'Arial',sans-serif;
+    text-transform: uppercase;
+    
+}
+h1{
+    color: #eee;
+    letter-spacing: -1px;
+    font-weight: 300;
+    word-spacing: 8px;
+}
+h2{
+    color: black;
+    font-size: 250;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+h2::after{
+    display: block;
+    height: 2px;
+    background-color: brown;
+    width: 100px;
+    content: '';
+    margin: 0 auto;
+    margin-top: 10px;
+}
+h3{
+    font-size: 160%;
+}
+
+#skills p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    color: white;
+}
+section{
+    padding: 30px 0 60px 0;
+}
+.profil-img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*Button*/
+.btn-1 {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: brown;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border: none;
+    list-style: none;
+  }
+  .btn-1 ::after {
+    border-radius: 30px;
+    
+  
+  }
+
+.projetImg {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-bottom: 3vh;
+    transition: 1s;
+}
+.projetImg:hover {
+    scale: 1.1;
+    transition: 1s;
+}
+
+.imgTitle {
+    position: relative;
+    bottom: -165px;
+
+    color: white;
+    background-color: #184872b4;
+    border-radius: 15px;
+}
+
+.imgTitle h4 {
+    padding: 10px 5px 0 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#contact{
+    background-color: black;
+}
+#contact h2{
+    color: blanchedalmond;
+}
+
+.social i {
+    font-size: 30px;
+    margin:20px;
+    padding-left: 20px;
+   color: brown;
+}
+ /*FOOTER*/
+ footer{
+    background-color: black;
+    color: #fff;
+  
+}
+.copyright{
+    text-align: center;
+}
+/* MEDIA QUERIES */
+/* règles communes aux mobiles + tablettes */
+
+@media screen and (max-width: 991px) {
+    .imgTitle  {
+        visibility: hidden;
+    }
+    .btn-1{
+        margin-bottom: 10px;
+    }
+    *, ::after, ::before {
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+}

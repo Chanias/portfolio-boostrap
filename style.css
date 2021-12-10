@@ -1,8 +1,5 @@
 /*GLOBAL*/
-html{
-    background-color: #fff;
-    margin-top: 20px;
-}
+
 h1,h2,h3,h4{
     font-family: 'lato', 'Arial',sans-serif;
     text-transform: uppercase;
@@ -34,17 +31,9 @@ h3{
     font-size: 160%;
 }
 
-#skills p{
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 24px;
-    color: white;
-}
-section{
-    padding: 30px 0 60px 0;
-}
+/*MES INFOS*/
 .profil-img{
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -63,12 +52,8 @@ section{
     border: none;
     list-style: none;
   }
-  .btn-1 ::after {
-    border-radius: 30px;
-    
-  
-  }
 
+/*PROJETS REALISES*/
 .projetImg {
     background-size: cover;
     background-position: top center;
@@ -101,7 +86,14 @@ section{
     color: white;
     text-align: center;
 }
-
+/*LANGAGES ET TECHNO*/
+#skills p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    color: white;
+}
+/*CONTACT*/
 #contact{
     background-color: black;
 }

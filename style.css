@@ -31,9 +31,11 @@ h3{
     font-size: 160%;
 }
 
-/*MES INFOS*/
+section{
+    padding:40px ;
+}
 .profil-img{
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -99,6 +101,9 @@ h3{
 }
 #contact h2{
     color: blanchedalmond;
+}
+#contact i{
+    color: brown;
 }
 
 .social i {

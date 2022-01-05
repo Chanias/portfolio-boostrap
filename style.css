@@ -89,6 +89,9 @@ section{
     text-align: center;
 }
 /*LANGAGES ET TECHNO*/
+#skills .row{
+    background-color: black;
+}
 #skills p{
     font-size: 15px;
     font-weight: 300;

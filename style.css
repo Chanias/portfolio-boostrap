@@ -73,21 +73,16 @@ section{
 }
 
 .imgTitle {
-    position: relative;
-    bottom: -165px;
-
-    color: white;
-    background-color: #184872b4;
-    border-radius: 15px;
-}
-
-.imgTitle h4 {
+    position: absolute;
     padding: 10px 5px 0 5px;
     font-size: 15px;
     font-weight: bold;
     color: white;
     text-align: center;
+    background-color: #184872b4;
+    border-radius: 15px;
 }
+
 /*LANGAGES ET TECHNO*/
 #skills .row{
     background-color: black;

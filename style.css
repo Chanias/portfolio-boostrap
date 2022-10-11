@@ -13,7 +13,7 @@ h1{
 }
 h2{
     color: black;
-    font-size: 250;
+    font-size: 250px;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -54,7 +54,9 @@ section{
     border: none;
     list-style: none;
   }
-
+  nav{
+    color: aliceblue;
+  }
 /*PROJETS REALISES*/
 .projetImg {
     background-size: cover;
@@ -68,7 +70,7 @@ section{
     transition: 1s;
 }
 .projetImg:hover {
-    scale: 1.1;
+    scale: 1.5 ;
     transition: 1s;
 }
 

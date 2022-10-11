@@ -1,357 +1,458 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio Boostrap</title>
+
     <!-- CDN de Boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"
+    />
     <!-- CDN de font-awesome pour les icônes  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+    />
+  </head>
 
-
-
-</head>
-
-<body>
+  <body>
     <!-- Navigation-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand text-light" href="#">Floriane Siedlecki</a>
+              <a class="navbar-brand" href="#">Floriane Siedlecki</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active text-light" aria-current="page" href="#">Qui je suis</a>
+                    <a class="nav-link active" aria-current="page" href="#">Qui je suis</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#skills">Mes compétences</a>
+                    <a class="nav-link" href="#skills">Mes compétences</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#projets">Mes projets</a>
+                    <a class="nav-link" href="#projets">Mes réalisations</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#langages">Langages et technologies</a>
+                    <a class="nav-link" href="#langages">Langages et technologies</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
-
                 </ul>
               </div>
             </div>
           </nav>
-        
     </header>
 
     <!--home section start-->
     <section id="home-section">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h2>mes infos</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-7">
-                    <img src="./images/face_co.png" alt="floriane siedlecki" class="profil-img">
-                </div>
-                <div class="col-md-5">
-
-                    <div class="profil-plus">
-                        <div class="row">
-
-                            <div class="col-md-10">
-                                <h3>Qui je suis</h3>
-                                <p>
-                                    <span>Bonjour! Je m'appelle Floriane Siedlecki. Je suis Développeuse
-                                        web junior à la recherche d'une entreprise pour mon alternance.</span><br>
-                                    Dans le cadre professionnel, ma curiosité et mon adaptabilité m'ont permis de
-                                    pouvoir m'intégrer facilement
-                                    dans une équipe.
-
-                                    Après 6 ans d'expérience dans le secteur du service à la personne, j'ai décidé de me
-                                    reconvertir.
-                                </p>
-                                <p>
-                                    🎮Depuis mon enfance, je suis passionnée de jeux vidéo et aujourd'hui je m'intéresse
-                                    aux secrets de leurs
-                                    fabrications (comment faire un jeu, un site web, le travail de codage). C'est pour
-                                    toutes ces raisons que
-                                    j'ai décidé de m'investir dans le domaine du numérique.
-                                </p>
-                                <a href="./CV_FlorianeSiedlecki.pdf" class="btn-1" target="_blank">Téléchargez mon
-                                    cv</a>
-                                <a href="#contact" class="btn-1">Contactez moi</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>mes infos</h2>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-md-7">
+            <img
+              src="./images/face_co.png"
+              alt="floriane siedlecki"
+              class="profil-img"
+            />
+          </div>
+          <div class="col-md-5">
+            <div class="profil-plus">
+              <div class="row">
+                <div class="col-md-10">
+                  <h3>Qui je suis</h3>
+                  <p>
+                    <span
+                      >Bonjour! Je m'appelle Floriane Siedlecki. Je suis
+                      Développeuse web junior à la recherche d'une entreprise
+                      pour mon alternance.</span
+                    ><br />
+                    Dans le cadre professionnel, ma curiosité et mon
+                    adaptabilité m'ont permis de pouvoir m'intégrer facilement
+                    dans une équipe. Après 6 ans d'expérience dans le secteur du
+                    service à la personne, j'ai décidé de me reconvertir.
+                  </p>
+                  <p>
+                    🎮Depuis mon enfance, je suis passionnée de jeux vidéo et
+                    aujourd'hui je m'intéresse aux secrets de leurs fabrications
+                    (comment faire un jeu, un site web, le travail de codage).
+                    C'est pour toutes ces raisons que j'ai décidé de m'investir
+                    dans le domaine du numérique.
+                  </p>
+                  <a
+                    href="./CV_FlorianeSiedlecki.pdf"
+                    class="btn-1"
+                    target="_blank"
+                    >Téléchargez mon cv</a
+                  >
+                  <a href="#contact" class="btn-1">Contactez moi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--home section end-->
 
     <!-- Skills and softskills-->
     <section id="skills">
-        <h2>Mes compétences</h2>
-        <div class="container px-4 px-lg-5">
-            <!-- Skill One Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="./images/gestion_de_projet.jpg"
-                        alt=" gestion de projet"/></div>
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Gestion de projet</h4>
-                                <h5 class="text-white">De mai à octobre. Poitiers et Niort</h5>
-                                <p>J'ai du effectué au cours de ma formation, pendant un hackathon ainsi que pendant mon
-                                    stage chez
-                                    Coraplis, une gestion de projet en commun avec mes collègues de formations. Nous
-                                    avons du
-                                    concevoir le cahier des charges, faire les maquettes du site. Pendant le stage, nous
-                                    avions du
-                                    concevoir avec les associations et mon collègue de formation, le cahier des charges,
-                                    les maquettes
-                                    du site (sous wordpress), la
-                                    charte graphique.</p>
-                                <hr class="d-none d-lg-block mb-0 ms-0" />
-                            </div>
-                        </div>
-                    </div>
+      <h2>Mes compétences</h2>
+      <div class="container px-4 px-lg-5">
+        <!-- Skill One Row-->
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid"
+              src="./images/gestion_de_projet.jpg"
+              alt=" gestion de projet"
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">Gestion de projet</h4>
+                  <h5 class="text-white">
+                    De mai à octobre. Poitiers et Niort
+                  </h5>
+                  <p>
+                    J'ai du effectué au cours de ma formation, pendant un
+                    hackathon ainsi que pendant mon stage chez Coraplis, une
+                    gestion de projet en commun avec mes collègues de
+                    formations. Nous avons du concevoir le cahier des charges,
+                    faire les maquettes du site. Pendant le stage, nous avions
+                    du concevoir avec les associations et mon collègue de
+                    formation, le cahier des charges, les maquettes du site
+                    (sous wordpress), la charte graphique.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ms-0" />
                 </div>
+              </div>
             </div>
-            <!-- Skill Two Row-->
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="./images/leadDév.jpg" alt="lead dév" /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">Lead dév</h4>
-                                <h5 class="text-white">De septembre à octobre. Niort stage chez Coraplis</h5>
-                                <p>J'ai dû "piloter" mon collègue sur les taches que nous avions à effectuer tout en le
-                                    motivant et
-                                    en lui expliquant ce qu'il devait faire.</p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Skill Three Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="./images/wordpress.jpg" alt="..." /></div>
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">wordpress</h4>
-                                <h5 class="text-white">De septembre à octobre. Niort stage chez Coraplis</h5>
-                                <p>Pendant mon stage de formation que j'ai effectué chez Coraplis à Niort, j'ai
-                                    travaillé sur un CMS : Wordpress.
-                                    Avec mon collègue nous devions créer la structure du site. J'ai également pour le
-                                    travail demandé dû utiliser le pluggin ACF (advanced Custom Fields) pour créer un
-                                    page de structure où l'on peut pré-remplir les informations concernant les
-                                    structures.
-                                </p>
-                                <hr class="d-none d-lg-block mb-0 ms-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Skill Four Row-->
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="./images/leadDév.jpg" alt="lead dév" /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">Entraide / Ecoute / Travail d'equipe</h4>
-                                <h5 class="text-white">Depuis 2014</h5>
-                                <p>Suite à ma formation d'auxiliaire de vie, où j'ai dû travailler en équipe, écouter et rassurer, communiquer avec la personne. J'ai acquis ces compétences et elles restent à ce jour pour moi des compétences primordiales même dans le domaines numériques.</p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <!-- Skill Two Row-->
+        <div class="row gx-0 justify-content-center">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="./images/leadDév.jpg" alt="lead dév" />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">Lead dév</h4>
+                  <h5 class="text-white">
+                    De septembre à octobre. Niort stage chez Coraplis
+                  </h5>
+                  <p>
+                    J'ai dû "piloter" mon collègue sur les taches que nous
+                    avions à effectuer tout en le motivant et en lui expliquant
+                    ce qu'il devait faire.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 me-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Skill Three Row-->
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="./images/wordpress.jpg" alt="..." />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">wordpress</h4>
+                  <h5 class="text-white">
+                    De septembre à octobre. Niort stage chez Coraplis
+                  </h5>
+                  <p>
+                    Pendant mon stage de formation que j'ai effectué chez
+                    Coraplis à Niort, j'ai travaillé sur un CMS : Wordpress.
+                    Avec mon collègue nous devions créer la structure du site.
+                    J'ai également pour le travail demandé dû utiliser le
+                    pluggin ACF (advanced Custom Fields) pour créer un page de
+                    structure où l'on peut pré-remplir les informations
+                    concernant les structures.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ms-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Skill Four Row-->
+        <div class="row gx-0 justify-content-center">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="./images/leadDév.jpg" alt="lead dév" />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">
+                    Entraide / Ecoute / Travail d'equipe
+                  </h4>
+                  <h5 class="text-white">Depuis 2014</h5>
+                  <p>
+                    Suite à ma formation d'auxiliaire de vie, où j'ai dû
+                    travailler en équipe, écouter et rassurer, communiquer avec
+                    la personne. J'ai acquis ces compétences et elles restent à
+                    ce jour pour moi des compétences primordiales même dans le
+                    domaines numériques.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 me-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--PROJETS REALISES-->
     <section id="projets">
-        <div class="container">
-            <div class="col-md-12">
-                <h2>Mes réalisations</h2>
-            </div>
+      <div class="container">
+        <div class="col-md-12">
+          <h2>Mes réalisations</h2>
         </div>
-        <div class="container">
-            <div class="row ">
-                <div class="col-md-4">
-                    <a href="https://chanias.github.io/navbar/" target="_blank" class="projetLink">
-                        <div class="projetImg" style="background-image: url(./images/navbar.png)">
-                            <div class="imgTitle">
-                                <h4>Navbar</h4>
-                            </div>
-                        </div>
-                    </a>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a
+              href="https://chanias.github.io/navbar/"
+              target="_blank"
+              class="projetLink"
+            >
+              <div
+                class="projetImg"
+                style="background-image: url(./images/navbar.png)"
+              >
+                <div class="imgTitle">
+                  <h4>Navbar</h4>
                 </div>
+              </div>
+            </a>
+          </div>
 
-                <div class="col-md-4">
-                    <a href="https://chanias.github.io/carte-de-visite/" target="_blank" class="projetLink">
-                        <div class="projetImg" style="background-image: url(./images/john_doe.png)">
-                            <div class="imgTitle">
-                                <h4>Carte de visite</h4>
-                            </div>
-                        </div>
-                    </a>
+          <div class="col-md-4">
+            <a
+              href="https://chanias.github.io/carte-de-visite/"
+              target="_blank"
+              class="projetLink"
+            >
+              <div
+                class="projetImg"
+                style="background-image: url(./images/john_doe.png)"
+              >
+                <div class="imgTitle">
+                  <h4>Carte de visite</h4>
                 </div>
+              </div>
+            </a>
+          </div>
 
-                <div class="col-md-4">
-                    <a href="https://chanias.github.io/kome-waza/" target="_blank" class="projetLink">
-                        <div class="projetImg" style="background-image: url(./images/kome_waza.png)">
-                            <div class="imgTitle">
-                                <h4>Kome Waza</h4>
-                            </div>
-                        </div>
-                    </a>
+          <div class="col-md-4">
+            <a
+              href="https://chanias.github.io/kome-waza/"
+              target="_blank"
+              class="projetLink"
+            >
+              <div
+                class="projetImg"
+                style="background-image: url(./images/kome_waza.png)"
+              >
+                <div class="imgTitle">
+                  <h4>Kome Waza</h4>
                 </div>
-            </div>
-
-            <div class="row ">
-                <div class="col-md-4">
-                    <a href="https://chanias.github.io/zanzibar/" target="_blank" class="projetLink">
-                        <div class="projetImg" style="background-image: url(./images/zanzibar.png)">
-                            <div class="imgTitle">
-                                <h4>Zanzibar</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href=" https://chanias.github.io/travel-blog/" target="_blank" class="projetLink">
-                        <div class="projetImg" style="background-image: url(./images/travel-blog.png)">
-                            <div class="imgTitle">
-                                <h4>Travel Blog</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="https://chanias.github.io/site-the/" target="_blank" class="projetLink">
-                        <div class="projetImg" style="background-image: url(./images/site-the.png)">
-                            <div class="imgTitle">
-                                <h4>Site du thé</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
+              </div>
+            </a>
+          </div>
         </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <a
+              href="https://chanias.github.io/zanzibar/"
+              target="_blank"
+              class="projetLink"
+            >
+              <div
+                class="projetImg"
+                style="background-image: url(./images/zanzibar.png)"
+              >
+                <div class="imgTitle">
+                  <h4>Zanzibar</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href=" https://chanias.github.io/travel-blog/"
+              target="_blank"
+              class="projetLink"
+            >
+              <div
+                class="projetImg"
+                style="background-image: url(./images/travel-blog.png)"
+              >
+                <div class="imgTitle">
+                  <h4>Travel Blog</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4">
+            <a
+              href="https://chanias.github.io/site-the/"
+              target="_blank"
+              class="projetLink"
+            >
+              <div
+                class="projetImg"
+                style="background-image: url(./images/site-the.png)"
+              >
+                <div class="imgTitle">
+                  <h4>Site du thé</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- LANGAGES ET TECHNO -->
     <section id="langages">
-        <div class="container mb-5">
-            <div class="row">
-                <h2>Langages et technologies</h2>
-            </div>
+      <div class="container mb-5">
+        <div class="row">
+          <h2>Langages et technologies</h2>
         </div>
-        <div class="row text-center ml-2 mr-2 mt-5">
-            <div class="col-md-4">
-                <p style="color: brown" data-bs-toggle="tooltip" title="HTML"><i class="fab fa-html5 fa-7x"></i></p>
-            </div>
-
-            <div class="col-md-4">
-                <p data-bs-toggle="tooltip" title="CSS"><i class="fab fa-css3-alt fa-7x"></i></p>
-            </div>
-
-            <div class="col-md-4">
-                <p style="color: brown" data-bs-toggle="tooltip" title="Bootstrap"><i class="fab fa-bootstrap fa-7x"></i></p>           
-            </div>
-
+      </div>
+      <div class="row text-center ml-2 mr-2 mt-5">
+        <div class="col-md-4">
+          <p style="color: brown" data-bs-toggle="tooltip" title="HTML">
+            <i class="fab fa-html5 fa-7x"></i>
+          </p>
         </div>
 
-        <div class="row text-center ml-2 mr-2 mt-5">
-            <div class="col-md-4">
-                <p data-bs-toggle="tooltip" title="PHP"><i class="fab fa-php fa-7x"></i></p>
-            </div>
-
-            <div class="col-md-4">
-                <p style="color: brown" data-bs-toggle="tooltip" title="JavaScript"><i class="fab fa-js fa-7x"></i></p>
-            </div>
-
-            <div class="col-md-4">
-                <p data-bs-toggle="tooltip" title="Wordpress"><i class="fab fa-wordpress fa-7x"></i></p>
-            </div>
+        <div class="col-md-4">
+          <p data-bs-toggle="tooltip" title="CSS">
+            <i class="fab fa-css3-alt fa-7x"></i>
+          </p>
         </div>
+
+        <div class="col-md-4">
+          <p style="color: brown" data-bs-toggle="tooltip" title="Bootstrap">
+            <i class="fab fa-bootstrap fa-7x"></i>
+          </p>
+        </div>
+      </div>
+
+      <div class="row text-center ml-2 mr-2 mt-5">
+        <div class="col-md-4">
+          <p data-bs-toggle="tooltip" title="PHP">
+            <i class="fab fa-php fa-7x"></i>
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <p style="color: brown" data-bs-toggle="tooltip" title="JavaScript">
+            <i class="fab fa-js fa-7x"></i>
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <p data-bs-toggle="tooltip" title="Wordpress">
+            <i class="fab fa-wordpress fa-7x"></i>
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Contact-->
     <section id="contact">
-        <h2>Contactez moi</h2>
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-md-4 mb-3 mb-md-0">
-
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-map-marked-alt  mb-2 fa-3x"></i>
-                            <h4 class="text-uppercase m-0">Adresse</h4>
-                            <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">79410 Saint Maxire</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i  class="fas fa-envelope mb-2 fa-3x"></i>
-                            <h4 class="text-uppercase m-0">Email</h4>
-                            <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="#!">florianesiedlecki@gmail.com</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-mobile-alt mb-2 fa-3x"></i>
-                            <h4 class="text-uppercase m-0">Téléphone</h4>
-                            <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">07.69.34.56.40</div>
-                        </div>
-                    </div>
-                </div>
+      <h2>Contactez moi</h2>
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt mb-2 fa-3x"></i>
+                <h4 class="text-uppercase m-0">Adresse</h4>
+                <hr class="my-4 mx-auto" />
+                <div class="small text-black-50">79410 Saint Maxire</div>
+              </div>
             </div>
-            <div class="social d-flex justify-content-center">
-                <a href="https://www.linkedin.com/in/floriane-siedlecki-50264a213/"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/Chanias"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope mb-2 fa-3x"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4 mx-auto" />
+                <div class="small text-black-50">
+                  <a href="#!">florianesiedlecki@gmail.com</a>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt mb-2 fa-3x"></i>
+                <h4 class="text-uppercase m-0">Téléphone</h4>
+                <hr class="my-4 mx-auto" />
+                <div class="small text-black-50">07.69.34.56.40</div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="social d-flex justify-content-center">
+          <a href="https://www.linkedin.com/in/floriane-siedlecki-50264a213/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Chanias"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
     </section>
 
     <!-- Footer-->
     <footer>
-        <div class="copyright">
-            <p>Floriane Siedlecki - 2021. <a href="#"></a></p>
-        </div>
+      <div class="copyright">
+        <p>Floriane Siedlecki - 2021. <a href="#"></a></p>
+      </div>
     </footer>
-<!--Script Javascript et autres Jquery-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-</body>
-
+    <!--Script Javascript et autres Jquery-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"
+      integrity="sha512-8Y8eGK92dzouwpROIppwr+0kPauu0qqtnzZZNEF8Pat5tuRNJxJXCkbQfJ0HlUG3y1HB3z18CSKmUo7i2zcPpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
 </html>

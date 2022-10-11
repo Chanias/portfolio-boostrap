@@ -68,9 +68,6 @@ section{
     margin-bottom: 3vh;
     transition: 1s;
 }
-.projetImg:hover {
-    transition: 1s;
-}
 
 .imgTitle {
     position: absolute;
